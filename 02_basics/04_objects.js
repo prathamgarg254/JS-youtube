@@ -29,9 +29,26 @@ const obj2 = {3:"c", 4:"d"}
 const obj3 = {...obj1 , ...obj2} //another way of combining
 //console.log(obj3);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); //Stores key in arrays
-console.log(Object.values(tinderUser)); //Stores values in arrays
-console.log(Object.entries(tinderUser)); //Stores entries in arrays
+//console.log(tinderUser);
+//console.log(Object.keys(tinderUser)); //Stores key in arrays
+//console.log(Object.values(tinderUser)); //Stores values in arrays
+//console.log(Object.entries(tinderUser)); //Stores entries in arrays
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "JS",
+    price: "99",
+    courseInstructor: "abc"
+}
+
+ const {courseInstructor : instructor} = course
+ console.log(instructor);
+
+//Json API
+
+//{
+//    "name": "abc",
+//    "course": "JS",
+//    "id": 123
+//}
