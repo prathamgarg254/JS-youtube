@@ -1,0 +1,11 @@
+JavaScript Execution context
+
+{} -> Global Execution
+
+Types of execution context : 
+
+1. Global Execution context
+2. Function Execution context
+3. Eval Execution context
+
+Memory Phase and Execution Phase
